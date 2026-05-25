@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detailed Quote</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/quote-details.css">
+
+</head>
+
+<body>
+
+
+    <section class="quote-page">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="quote-card">
+
+
+                        <!-- HEADING -->
+
+                        <div class="quote-top-heading">
+
+                            <h3>
+                                Request Your Detailed Interior Quotation
+                            </h3>
+
+                        </div>
+
+
+
+                        <!-- CUSTOMER DETAILS -->
+                        <div class="project-details-box">
+
+                            <h4 class="quote-section-title">
+                                Customer Details
+                            </h4>
+
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+
+                                        <label>Name</label>
+
+                                        <input type="text" id="customerName" class="form-control"
+                                            placeholder="Enter your name">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+
+                                        <label>Phone Number</label>
+
+                                        <input type="text" id="customerPhone" class="form-control"
+                                            placeholder="Enter phone number">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+
+                                        <label>Email</label>
+
+                                        <input type="email" id="customerEmail" class="form-control"
+                                            placeholder="Enter email address">
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+
+                                        <label>Location</label>
+
+                                        <input type="text" id="customerLocation" class="form-control"
+                                            placeholder="Enter your location">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- PROJECT DETAILS -->
+
+                        <div class="project-details-box">
+
+                            <h4 class="quote-section-title">
+                                Project Details
+                            </h4>
+
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+
+                                        <label>Property Type</label>
+
+                                        <input type="text" id="propertyTypeDisplay" class="form-control" readonly>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+
+                                        <label>Space Type</label>
+
+                                        <input type="text" id="spaceTypeDisplay" class="form-control" readonly>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+
+                                        <label>Square Feet</label>
+
+                                        <input type="text" id="squareFeetDisplay" class="form-control" readonly>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+
+                                        <label>Material Package</label>
+
+                                        <input type="text" id="materialDisplay" class="form-control" readonly>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-12">
+
+                                    <div class="form-group mb-0">
+
+                                        <label>Total Estimated Cost</label>
+
+                                        <input type="text" id="totalDisplay" class="form-control" readonly>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- TERMS -->
+
+                        <div class="terms-box">
+
+                            <h5>
+                                Terms & Conditions
+                            </h5>
+
+                            <ul>
+
+                                <li>
+                                    Final project cost may vary depending on site conditions, material selection, and
+                                    design modifications.
+                                </li>
+
+                                <li>
+                                    Advance payments made towards design or material procurement are non-refundable
+                                    after project commencement.
+                                </li>
+
+                                <li>
+                                    This quotation is valid for 15 days from the date of issue and may be revised
+                                    thereafter.
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+
+                        <!-- BUTTON -->
+
+                        <button class="quote-btn" id="downloadPDF">
+                            Download Quotation PDF
+                        </button>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+
+    <script src="assets/js/quote-details.js"></script>
+
+</body>
+
+</html>
