@@ -1,0 +1,27 @@
+.sub_banner .sub_banner_content .box .cart span {
+    color: var(--e-global-color-secondary);
+}
+
+/* Cart Page */
+
+.cart-con {
+    padding: 135px 0;
+}
+
+/* Cart Details */
+
+.cart-con .product-detail-box .heading {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(26 24 25 / 15%);
+}
+.cart-con .column-labels {
+    padding: 24px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(26 24 25 / 15%);
+}
+... (file truncated for brevity)
